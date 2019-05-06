@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Nav() {
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg">
             <a href="/" className="navbar-brand">
                 Google Books
             </a>

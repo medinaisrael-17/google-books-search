@@ -8,8 +8,10 @@ function Input() {
             <h3>Book</h3>
 
 
-            <input type="submit" id = "bookSearch" placeholder="Title"></input>
+            <input id = "bookSearch" placeholder="Title"></input>
             <button type="submit" id="searchButton"> Search</button>
         </div>
     )
 }
+
+export default Input;

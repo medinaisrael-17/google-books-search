@@ -4,9 +4,8 @@ import Jumbotron from "../components/Jumbotron";
 // import API from "../utils/API";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
-import Card from "../components/Card";
 
-class Saved extends Component {
+class NoMatch extends Component {
     state = {
         books: []
     }
@@ -15,15 +14,11 @@ class Saved extends Component {
         return(
             <Container fluid>
                 <Jumbotron>
-                <h1>(React) Google Books Search</h1>
-                <h3>Search for and Save Books of Interest</h3>
+                <h1>404: Page Does Not Exist</h1>
                 </Jumbotron>
-                <Card>
-                    <h1>Saved Books</h1>
-                </Card>
             </Container>
         )
     }
 }
 
-export default Saved;
+export default NoMatch;
